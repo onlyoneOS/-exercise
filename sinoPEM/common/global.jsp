@@ -7,6 +7,8 @@
 
 <script type="text/javascript">
 	var ctx = '<%=request.getContextPath() %>';
+	//心情不美好
 	//测试
+	//aaaa
 	//你好吗，git
 </script>
