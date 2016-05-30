@@ -8,4 +8,5 @@
 <script type="text/javascript">
 	var ctx = '<%=request.getContextPath() %>';
 	//测试
+	//你好吗，git
 </script>
