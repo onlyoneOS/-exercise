@@ -7,4 +7,5 @@
 
 <script type="text/javascript">
 	var ctx = '<%=request.getContextPath() %>';
+	//测试
 </script>
