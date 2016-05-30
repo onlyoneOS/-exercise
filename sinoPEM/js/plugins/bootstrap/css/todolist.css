@@ -1,0 +1,195 @@
+/*待处理、待认领列表样式*/
+
+body {
+    color: #333333;
+   /* line-height: 18px;*/
+    font-size: 14px;
+}
+.content-main {
+    border-radius: 6px 6px 6px 6px;
+    border-bottom-left-radius:6px;
+    border-bottom-right-radius: 6px;
+}
+.content-header  {
+    background-clip: padding-box;
+    border: 1px solid #E8E8E8;
+	 border-radius: 6px 6px 0 0;
+	 border-top-left-radius:6px;
+    border-bottom-width: 0;
+}
+.header-inner{
+	 background-color: #FFFFFF;
+    border-bottom: 1px solid #E8E8E8;
+    border-radius: 5px 5px 0 0;
+    border-top-left-radius:5px;
+    min-height: 10px;
+    padding: 12px;
+	
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    text-rendering: optimizelegibility;
+}
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+}
+.js-timeline-title{
+  color: #333333;
+	font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+    outline-style: none;
+}
+.stream{
+    list-style: none outside none;
+    margin-left: 0;
+    position: relative;
+}
+.stream-items {
+    list-style: none outside none;
+    margin-left: 0;
+    position: relative;
+    background: none repeat scroll 0 0 padding-box #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+
+.stream-item {
+    background: none repeat scroll 0 0 padding-box #FFFFFF;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+.stream-item .content {
+    margin-left: 58px;
+}
+
+small {
+    font-size: 12px;
+}
+.tweet {
+    cursor: pointer;
+    border-bottom: 1px solid #E8E8E8;
+    min-height: 51px;
+    padding: 9px 12px;
+    position: relative;
+}
+.tweet .time {
+    color: #BBBBBB;
+    float: right;
+    margin-top: 1px;
+    position: relative;
+}
+.tweet p {
+    word-wrap: break-word;
+}
+.tweet .stream-item-footer {
+    font-size: 12px;
+    padding-top: 1px;
+}
+.tweet:hover, .tweet.focuse{
+	 background-color: #f5f5f5;
+}
+.time, .time a{
+    color: #999999;
+    font-size: 12px;
+}
+
+.stream-item-header .avatar{
+    left: 12px;
+    position: absolute;
+    top: 12px;
+    border-radius: 5px 5px 5px 5px;
+    height: 48px;
+    width: 48px;
+}
+
+
+.fullname {
+    color: #333333;
+    font-weight: bold;
+}
+.fullname:hover{
+	color: #0084B4;
+}
+.username, .time, .time a{
+    color: #999999;
+    font-size: 12px;
+}
+.expand-action-wrapper {
+    color: #999999;
+}
+.js-tweet-text{
+	color:#444444;
+   font-size: 13px;
+}
+p {
+    margin: 0;
+}
+img {
+    border: 0 none;
+}
+.tweet a {
+    color: #0084B4;
+    text-decoration: none;
+     outline-style: none;
+}
+.tweet a:hover,.tweet a:focus{
+   color: #0084B4;
+	text-decoration: underline;
+	outline-style: none;
+}
+b {
+    font-weight: normal;
+}
+
+.tweet-actions {
+    display: none;
+}
+/* 认领*/
+
+a.favor {
+	float: right;
+    background: url("../img/user_none.png") no-repeat;
+    height: 32px;
+    width: 32px;
+    outline-style: none;
+}
+.tweet a.deal{
+	visibility: hidden;
+}
+.tweet:hover a.deal{
+	visibility: visible;
+}
+a.cliam{
+	float: right;
+	background: url("../img/user.png") no-repeat;
+    height: 32px;
+    width: 32px;
+    outline-style: none;
+}
+a.favor:hover{
+	float: right;
+    background: url("../img/user.png") no-repeat;
+    height: 32px;
+    width: 32px;
+    outline-style: none;
+}
+a.deal{
+	float: right;
+    background: url("../img/construction.png") no-repeat;
+    height: 32px;
+    width: 32px;
+    outline-style: none;
+}
+a.deal:hover{
+	float: right;
+    background: url("../img/construction_over.png") no-repeat;
+    height: 32px;
+    width: 32px;
+    outline-style: none;
+}
