@@ -9,4 +9,5 @@
 	var ctx = '<%=request.getContextPath() %>';
 	//测试
 	//你好吗，git
+	//冲突
 </script>
